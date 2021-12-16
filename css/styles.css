@@ -28,7 +28,7 @@
 }
 
 
- body{font-family: 'Roboto',sans-serif;
+body{font-family: 'Roboto',sans-serif;
       background-color: var(--background-color-main);
       
     }
@@ -85,6 +85,7 @@
   letter-spacing: 0.06em;
   color:var(--color-2);
   background-color: #2196F3;
+  cursor: pointer;
 }
 /*------------ ADVANTAGES -----------------*/
 .invisible-title{display: none;}
@@ -124,10 +125,12 @@
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--color-h);
+  cursor: pointer;
   
 }
 .portfolio-button:hover,.portfolio-button:focus{
   background-color:#2196F3;
   color:var(--color-2) ;
+  cursor: pointer;
 }
 
